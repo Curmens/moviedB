@@ -1,0 +1,54 @@
+#movies img,
+#movie img {
+  width: 100%;
+}
+
+body {
+  font-family: Arial, "Helvetica", sans-serif;
+  height: 100vh;
+}
+.logo {
+  /* height: 300px; */
+  position: relative;
+  float: left;
+  width: 150px;
+  top: 1rem;
+}
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 410px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
+
+.additional-info {
+  position: relative;
+  float: right;
+  bottom: -40vh;
+  right: 3rem;
+}
+
+.footer {
+  color: yellow;
+  font-weight: 700;
+}
+
+h6 {
+  margin-top: 15px;
+}
+
+.sample {
+  color: rgb(167, 130, 10);
+}
+
+.jumbotron {
+  width: 90%;
+  position: relative;
+  left: 50%;
+  top: 10rem;
+  transform: translate(-50%, -50%);
+  margin-bottom: 5rem;
+}
